@@ -84,29 +84,29 @@ const index = () => {
             </div>
           </div>
           <div className="mx-auto mb-8  w-full max-w-[431px] overflow-scroll rounded-xl border border-[#ddd]  bg-white  shadow-xl">
-            <div class="border-b border-gray-200 text-center text-lg font-medium text-gray-500  dark:text-gray-400">
-              <ul class="-mb-px flex flex-wrap justify-between">
-                <li class="mr-2">
+            <div className="text-lg font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400">
+              <ul className="flex flex-wrap justify-between -mb-px">
+                <li className="mr-2">
                   <a
                     href="#"
-                    class="inline-block rounded-t-lg border-b-2 border-transparent p-4 text-black"
+                    className="inline-block p-4 text-black border-b-2 border-transparent rounded-t-lg"
                   >
                     Live
                   </a>
                 </li>
-                <li class="mr-2">
+                <li className="mr-2">
                   <a
                     href="#"
-                    class="active inline-block rounded-t-lg border-b-2 border-blue-600 p-4 font-bold text-blue-600 dark:border-blue-500 dark:text-blue-500"
+                    className="inline-block p-4 font-bold text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:border-blue-500 dark:text-blue-500"
                     aria-current="page"
                   >
                     ScoreCard
                   </a>
                 </li>
-                <li class="mr-2">
+                <li className="mr-2">
                   <a
                     href="#"
-                    class="inline-block rounded-t-lg border-b-2 border-transparent p-4 text-black"
+                    className="inline-block p-4 text-black border-b-2 border-transparent rounded-t-lg"
                   >
                     Report
                   </a>
