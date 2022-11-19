@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
+
+.main-container {
+  @apply mx-auto max-w-[1600px] px-5;
+}
+.swiper-slide {
+  @apply opacity-100 ring-blue-500;
+}
+.swiper-slide-visible {
+  opacity: 0.25;
+}
